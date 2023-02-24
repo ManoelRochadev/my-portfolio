@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(17, 17, 18);
+  background: linear-gradient(90deg, rgba(17, 17, 18, 1) 0%, rgba(16, 16, 17, 1) 35%, rgba(58, 62, 62, 1) 100%);
+  -webkit-font-smoothing: antialiased;
+}
