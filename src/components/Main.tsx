@@ -1,17 +1,19 @@
+import { Element } from "react-scroll"
+
 export function Main() {
   return (
-    <div className="flex flex-row gap-44 mx-32 my-20">
+    <div className="flex flex-row gap-44 max-sm:mx-6 mx-32 my-20">
       <div className="flex flex-col font-bold">
         <p className=" text-2xl">Olá, sou</p>
-        <span className="mt-6 text-6xl text-[#70FF00]">&lt; Manoel<br /> Rocha &gt;</span>
-        <p className="text-4xl mt-8">Fullstack Developer</p>
+        <span className="mt-6 text-6xl max-sm:text-4xl text-[#70FF00]">&lt; Manoel<br /> Rocha &gt;</span>
+        <p className="text-4xl max-sm:text-2xl mt-8">Fullstack Developer</p>
 
-        <div className="mt-6 text-2xl text-[#828282] flex flex-row gap-12">
-          <div className="flex flex-row font-normal">
-            <span className="mx-3 text-6xl leading-none font-bold">2</span>Years of <br /> experience
+        <div className="mt-6 text-2xl text-[#828282] flex flex-row max-sm:text-lg gap-12 max-sm:gap-4">
+          <div className="flex flex-row font-normal max-sm:text-sm">
+            <span className="mx-3 text-6xl max-sm:text-4xl leading-none font-bold">2</span>Years of <br /> experience
           </div>  
-          <div className="flex flex-row font-normal">
-            <span className="mx-3 text-6xl leading-none font-bold">13</span> Projects Completed <br />
+          <div className="flex flex-row font-normal max-sm:text-sm">
+            <span className="mx-3 text-6xl max-sm:text-4xl leading-none font-bold">13</span> Projects Completed <br />
             around the world
           </div>
         </div>
