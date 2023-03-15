@@ -5,7 +5,7 @@ export function About() {
     <Element 
     name='about'  
     className="flex flex-col lg:flex-row justify-center items-center gap-28 mt-40 mb-52 md:flex-col max-sm:flex-col">
-      <div className="w-[240px] lg:w-[480px] ">
+      <div className="w-[340px] lg:w-[480px] ">
         <h2 className="font-bold text-3xl text-[#70FF00]">Sobre mim</h2>
         <p className="mt-8">
           Como desenvolvedor Fullstack, tenho vasta experiência em tecnologias como Javascript, Typescript, React, Next.js, Node.js e Nest.js. Isso me torna um profissional altamente capacitado e preparado para assumir projetos desafiadores em qualquer etapa do ciclo de desenvolvimento de software.
