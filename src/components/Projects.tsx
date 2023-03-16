@@ -9,10 +9,13 @@ export function Projects() {
     <div className="flex justify-center items-center flex-col ">
     <Carousel className="w-[940px] max-sm:w-[354px] h-auto" showThumbs={false}>
       <div>
-        <img src="petshop.jpg" />
+        <img src="/petshop.jpg" />
       </div>
       <div>
-        <img src="crypto.jpg" />
+        <img src="/crypto.jpg" />
+      </div>
+      <div>
+        <img src="/dtmoney.jpg" alt="" />
       </div>
     </Carousel>
     </div>
