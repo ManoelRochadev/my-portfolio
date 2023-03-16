@@ -7,14 +7,12 @@ export function Projects() {
     <Element name="projects">
       <h3 className="text-3xl text-[#70FF00] mt-12 flex justify-center mb-10">Projetos</h3>
     <div className="flex justify-center items-center flex-col ">
-    <Carousel className="w-[940px] max-sm:w-80">
+    <Carousel className="w-[940px] max-sm:w-[354px] h-auto" showThumbs={false}>
       <div>
         <img src="petshop.jpg" />
-        <p className="legend">Petshop Project</p>
       </div>
       <div>
         <img src="crypto.jpg" />
-        <p className="legend">Crypto-price</p>
       </div>
     </Carousel>
     </div>

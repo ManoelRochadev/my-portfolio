@@ -10,11 +10,12 @@ export function Main() {
 
         <div className="mt-6 text-2xl text-[#828282] flex flex-row max-sm:text-lg gap-12 max-sm:gap-4">
           <div className="flex flex-row font-normal max-sm:text-sm">
-            <span className="mx-3 text-6xl max-sm:text-4xl leading-none font-bold">2</span>Years of <br /> experience
+            <span className="mx-3 text-6xl max-sm:text-4xl leading-none font-bold">2</span>de experiência  <br /> 
+            em desenvolvimento
           </div>  
           <div className="flex flex-row font-normal max-sm:text-sm">
-            <span className="mx-3 text-6xl max-sm:text-4xl leading-none font-bold">13</span> Projects Completed <br />
-            around the world
+            <span className="mx-3 text-6xl max-sm:text-4xl leading-none font-bold">13</span> Projetos pessoais <br />
+            concluidos
           </div>
         </div>
       </div>
