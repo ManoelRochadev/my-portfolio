@@ -2,7 +2,7 @@ import { Element } from "react-scroll"
 
 export function Main() {
   return (
-    <div className="flex flex-row gap-44 max-sm:mx-6 mx-32 my-20">
+    <div className="flex flex-row gap-44 max-sm:mx-6 mx-32 my-20 lg:justify-center">
       <div className="flex flex-col font-bold">
         <p className=" text-2xl">Olá, sou</p>
         <span className="mt-6 text-6xl max-sm:text-4xl text-[#70FF00]">&lt; Manoel<br /> Rocha &gt;</span>
